@@ -20,8 +20,8 @@ let package = Package(
     ],
     dependencies: [
         // Mark: Dependencies Begin
-        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0-beta3"),
-        .package(url: "https://github.com/AddApptr/RTBSDK.git", .upToNextMinor(from: "1.11.0-beta2")),
+        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0"),
+        .package(url: "https://github.com/AddApptr/RTBSDK.git", .upToNextMinor(from: "1.11.0")),
         // Mark: Dependencies End
     ],
     // Mark: Targets
@@ -39,8 +39,8 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "AATGraviteRTBAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/AATGraviteRTBAdapter.zip",
-            checksum: "e94d7ab97909a17d60c2a07b6da79252d6a204d6f5072b3de757a1d195ce81f2"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/AATGraviteRTBAdapter.zip",
+            checksum: "189719ee9bbcfea715d3377b70736df94d0af54bf80fc174e3af501201cc8e21"
         ),
     ]
 )
